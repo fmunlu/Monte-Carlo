@@ -9,8 +9,5 @@ Calculation of prices of geometric Asian options using Black-Scholes formula and
 prices of arithmetic Asian options for which a closed form analytic formula does not exist.
 
 ### M1 -- Integral of the Brownian Motion wrt Time
-We prove the fact that
-$$
-\int_{0}^{T} W_t \, dt \sim N(0, \frac{1}{3} T^3)
-$$
-using Fubini's Theorem and empirically verify it by generating paths for the Brownian motion.
+We prove the fact that the integral of the standard Brownian motion with repect to time is a normal random variable and calculate its mean and variance using 
+Fubini's Theorem; and empirically verify it by generating paths for the Brownian motion.
