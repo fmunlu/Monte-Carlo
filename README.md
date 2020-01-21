@@ -11,6 +11,9 @@ Use of antithetic sampling and control variates to reduce variance in estimation
 Calculation of prices of geometric Asian options using Black-Scholes formula and their estimation via Monte Carlo method. In addition, we estimate
 prices of arithmetic Asian options for which a closed form analytic formula does not exist.
 
+### B2 -- Variance Reduction for Asian Option Pricing
+Use of antithetic sampling and control variates to reduce variance in estimation of Asian option prices.
+
 ### M1 -- Integral of the Brownian Motion wrt Time
 We prove the fact that the integral of the standard Brownian motion with repect to time is a normal random variable and calculate its mean and variance using 
 Fubini's Theorem; and empirically verify it by generating paths for the Brownian motion.
